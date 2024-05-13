@@ -131,3 +131,25 @@ hr{
     margin-right: 10px;
     
 }
+
+.experience-item {
+ display: flex;
+ flex-direction: column;
+}
+
+.work-list{
+    margin-left: 20px;
+}
+
+.pro-link{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.project-item span{
+display: flex;
+justify-content: space-between;
+}
+.project-item p{
+margin-left: -185px;
+}
