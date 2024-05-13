@@ -1,5 +1,4 @@
 /* Reset */
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
 
 /* Body */
 body {
- padding: 20px;
+    padding: 20px;
 }
 
 /* Wrapper */
@@ -17,7 +16,7 @@ body {
     margin: 0 auto;
     border: 1px solid red;
     padding: 20px;
-    max-width: 1040px;
+    width: 1040px;
 }
 
 /* Header */
@@ -28,10 +27,15 @@ header {
 }
 
 .header-right {
-    margin-right: 140px;
+    margin-right: 70px;
     font-size: 1.05rem;
 }
 
+/* .header-right, 
+.right-section,
+.pro-link{
+    flex: 2;
+} */
 /* Sections */
 section {
     display: flex;
@@ -45,7 +49,6 @@ section {
 
 /* Left Section */
 .left-section {
-    flex: 1;
     padding: 5px;
 }
 
@@ -61,6 +64,14 @@ section {
     margin-left: 20px;
 }
 
+.left-section ul li {
+    display: inline;
+}
+
+.left-section ul li:not(:last-child)::after {
+    content: " | ";
+}
+
 /* Contact */
 .contact-top {
     text-decoration: none;
@@ -70,28 +81,15 @@ section {
     list-style-type: none;
 }
 
-.left-section ul li {
-    display: inline;
-}
-
-.left-section ul li:not(:last-child)::after {
-    content: " | ";
-}
-
 /* Education */
-.education {
+.education,
+.work-experience {
     display: flex;
     flex-direction: column;
 }
 
 .education span p {
     margin-left: 10px;
-}
-
-/* Work Experience */
-.work-experience {
-    display: flex;
-    flex-direction: column;
 }
 
 /* Footer */
@@ -117,54 +115,36 @@ p {
 }
 
 /* Project List */
-
-
-.project-body {
+.project-body,
+.work-list {
     margin-left: 20px;
 }
 
-hr{
-    margin-bottom: 10px;
-}
-
-.project-item span h3{
+.project-item span h3 {
     margin-right: 10px;
-    
 }
 
 .experience-item {
- display: flex;
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
-.work-list{
-    margin-left: 20px;
-}
-
-.pro-link{
+.pro-link {
     font-weight: bold;
     font-style: italic;
+    flex: 1;
 }
 
-.project-header{
+.project-header {
     display: flex;
+    justify-content: space-between;
     margin-top: 10px;
-      
 }
 
-.project-header{
-display: flex;
-justify-content: space-between;
-
+.project-header :first-child {
+    flex: 4;
 }
 
-
-
-
-/* .project-item p{
-margin-left: -185px;
+hr {
+    margin-bottom: 10px;
 }
-
-#shiva-p{
-    margin-left: -245px;
-} */
