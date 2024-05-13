@@ -1,0 +1,145 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+/* Body */
+body {
+    margin: 5px 200px;
+    max-width: 1040px;
+}
+
+/* Wrapper */
+.resume-wrapper {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 10px;
+
+}
+
+.header-right{
+    margin-right: 150px;
+    font-size: 1.05rem;
+}
+
+.right-header, .right-section {
+   
+}
+
+.left-section, .left-header{
+
+
+}
+
+/* Sections */
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    padding: 5px;
+}
+
+.left-section{
+  
+}
+
+.left-section div {
+    padding: 5px 0;
+}
+
+.left-section h3 {
+    font-weight: bold;
+}
+
+.left-section ul {
+    margin-left: 20px;
+}
+
+/* Contact */
+.contact-top {
+    text-decoration: none;
+}
+
+.contact-top li {
+    list-style-type: none;
+}
+
+.left-section ul li {
+    display: inline;
+}
+
+.left-section ul li:not(:last-child)::after {
+    content: " | ";
+}
+
+/* Education */
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education span p {
+    margin-left: 10px;
+}
+
+/* Work Experience */
+.work-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+/* Section Body Span */
+.section-body span {
+    display: flex;
+    align-items: center;
+}
+
+/* Headings */
+h2 {
+    text-decoration: underline;
+}
+
+/* List Items */
+li,
+p {
+    font-size: 0.9rem;
+}
+
+/* Project List */
+.project-list span {
+    text-decoration: underline;
+}
+
+.project-body{
+    margin-left: 20px;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
