@@ -1,10 +1,8 @@
-
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Pacifico', cursive; */
 }
 
 /* Body */
@@ -23,22 +21,12 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-margin-bottom: 10px;
-
+    margin-bottom: 10px;
 }
 
-.header-right{
+.header-right {
     margin-right: 150px;
     font-size: 1.05rem;
-}
-
-.right-header, .right-section {
-   
-}
-
-.left-section, .left-header{
-
-
 }
 
 /* Sections */
@@ -50,17 +38,12 @@ section {
 .section-body {
     display: flex;
     flex-direction: column;
-
 }
 
 /* Left Section */
 .left-section {
     flex: 1;
     padding: 5px;
-}
-
-.left-section{
-  
 }
 
 .left-section div {
@@ -135,11 +118,12 @@ p {
     text-decoration: underline;
 }
 
-.project-body{
+.project-body {
     margin-left: 20px;
 }
 
-hr{
+/* Horizontal Rule */
+hr {
     margin-bottom: 10px;
 }
 
