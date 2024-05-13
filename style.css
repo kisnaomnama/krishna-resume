@@ -1,8 +1,10 @@
 /* Reset */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: 'Pacifico', cursive; */
 }
 
 /* Body */
@@ -121,9 +123,8 @@ p {
     margin-left: 20px;
 }
 
-/* Horizontal Rule */
-hr {
-    margin: 10px 0;
+hr{
+    margin-bottom: 10px;
 }
 
 .project-item span h3{
