@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     border: 1px solid red;
     padding: 20px;
-    max-width: 960px;
+    max-width: 1040px;
 }
 
 /* Header */
@@ -146,10 +146,25 @@ hr{
     font-style: italic;
 }
 
-.project-item span{
+.project-header{
+    display: flex;
+    margin-top: 10px;
+      
+}
+
+.project-header{
 display: flex;
 justify-content: space-between;
+
 }
-.project-item p{
+
+
+
+
+/* .project-item p{
 margin-left: -185px;
 }
+
+#shiva-p{
+    margin-left: -245px;
+} */
