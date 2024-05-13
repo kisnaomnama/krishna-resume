@@ -1,44 +1,33 @@
-
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Pacifico', cursive; */
 }
 
 /* Body */
 body {
-    margin: 5px 200px;
-    max-width: 1040px;
+ padding: 20px;
 }
 
 /* Wrapper */
 .resume-wrapper {
+    margin: 0 auto;
     border: 1px solid red;
     padding: 20px;
+    max-width: 960px;
 }
 
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
-margin-bottom: 10px;
-
+    margin-bottom: 10px;
 }
 
-.header-right{
-    margin-right: 150px;
+.header-right {
+    margin-right: 140px;
     font-size: 1.05rem;
-}
-
-.right-header, .right-section {
-   
-}
-
-.left-section, .left-header{
-
-
 }
 
 /* Sections */
@@ -50,17 +39,12 @@ section {
 .section-body {
     display: flex;
     flex-direction: column;
-
 }
 
 /* Left Section */
 .left-section {
     flex: 1;
     padding: 5px;
-}
-
-.left-section{
-  
 }
 
 .left-section div {
@@ -131,15 +115,18 @@ p {
 }
 
 /* Project List */
-.project-list span {
-    text-decoration: underline;
-}
 
-.project-body{
+
+.project-body {
     margin-left: 20px;
 }
 
-hr{
-    margin-bottom: 10px;
+/* Horizontal Rule */
+hr {
+    margin: 10px 0;
 }
 
+.project-item span h3{
+    margin-right: 10px;
+    
+}
